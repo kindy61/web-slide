@@ -1,0 +1,11 @@
+.DS_Store
+*~
+*_
+~*
+_*
+*.bak
+upload
+images
+*.swp
+sample-slides.html
+bin/upload

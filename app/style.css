@@ -1,0 +1,198 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: #222;
+	color: #FFF;
+}
+
+html, body, input {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 1.5em;
+}
+
+div.slide {
+	width: 100%;
+	overflow: hidden;
+}
+
+div.slide h1 {
+	margin: 0 0 0.5em 0;
+	padding: 15px 0 15px 36px;
+	background: #0848B8;
+}
+
+div.slide h1.only-con {
+    margin: 0 1em;
+	text-align: center;
+}
+
+div.slide p {
+	margin: 0 28px .8em;
+/*  font-size: 26px;*/
+}
+
+div.slide ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 28px;
+	font-size: 36px;
+}
+
+div.slide li {
+	margin: 18px;
+	padding: 0;
+	line-height: 1.25em;
+}
+
+pre {
+	font-family: Monaco, Courier New;
+	margin: 0 1em .8em;
+	padding: 0.5em;
+	font-size: 24px;
+}
+
+pre.javascript, pre.html, pre.code {
+	background: #000;
+	color: #fff;
+}
+
+pre.stocky {
+	width: 50%;
+	float: left;
+}
+
+pre a {
+	text-decoration: none;
+}
+
+a {
+	color: #FFF;
+}
+
+input[type=text] {
+	width: 400px;
+}
+
+img.logo {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	border: 0;
+}
+
+div.slide.main {
+	background: #1E2837;
+	text-align: center;
+}
+
+
+
+.s-kw {
+  color: #3333FF
+}
+.s-s {
+  text-decoration: line-through;
+}
+.s-iu {
+  text-decoration: underline;
+  font-style: italic;
+}
+.s-ui {
+/*  text-decoration: underline; */
+  font-style: italic;
+}
+.s-u {
+  text-decoration: underline;
+}
+.s-date {
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 40%;
+  color: #339933;
+}
+.s-bdate {
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 90%;
+  color: #339933;
+}
+.s-i {
+  font-style: italic;
+  font-family: "Cambria" "Times New Roman" "Bitstream Vera Serif" serif;
+}
+.s-t {
+  font-style: italic;
+}
+.s-tag {
+  color: #998833;
+}
+.s-v {
+  color: #998833;
+}
+.s-att {
+  color: #333399;
+}
+.s-key {
+  color: #009999;
+}
+.s-h {
+  color: #000;
+}
+.s-c {
+  color: #C39;
+}
+.s-cm {
+  color: #117711;
+}
+.s-m {
+  color: #963;
+  font-family: "Comic Sans MS";
+}
+.s-cz {
+  color: #C39;
+  font-family: "Candara";
+}
+.s-z {
+  font-family: "Candara"
+}
+.s-x {
+  color: #C00;
+}
+.s-xs {
+  color: #633;
+  text-decoration: line-through;
+}
+.s-ci {
+  color: #C39;
+  font-style: italic;
+}
+.s-au {
+        color: #C39;
+        font-style: italic;
+        font-family: "Consolas"
+                     "Constantia"
+                     "Times New Roman"
+                     "微软雅黑"
+                     "Bitstream Vera Serif"
+                     serif;
+        font-size: 70%;
+}
+.s-cu {
+  color: #C39;
+  text-decoration: underline;
+}
+.s-ct {
+  color: #C39;
+  font-style: italic;
+}
+.s-hs {
+  color: #f33;
+  text-decoration: line-through;
+}
+.s-ht {
+  color: #aaa;
+  font-style: italic;
+}
